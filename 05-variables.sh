@@ -2,11 +2,13 @@
 
 echo "Please enter your username" 
 
-read USERNAME
+read USERNAME #it will ask you username in prompt and enter after using the username
 
 echo "Username entered is: $USERNAME"
 
-#read PASSWORD
+echo "Please enter your password" 
 
-#ehco "Password entered is: $PASSWORD"
+read PASSWORD
+
+echo "Password entered is: $PASSWORD"
 
