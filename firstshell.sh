@@ -1,5 +1,7 @@
 #!/bin/bash 
 
+#######variables concept
+
 PERSON1=RAMESH
 PERSON2=SURESH
 
@@ -16,3 +18,5 @@ echo "$PERSON2: OIC its good"
 echo "$PERSON1: What about you ? are you developing something or not"
 
 echo "$PERSON2: I'm just doing some timepass no work only njoy"
+
+############### datatypes
