@@ -8,7 +8,7 @@ echo "Username entered is: $USERNAME"
 
 echo "Please enter your password" 
 
-read PASSWORD
+read -s PASSWORD #mentioning -s here to invisible the password which is entering by the user
 
 echo "Password entered is: $PASSWORD"
 
