@@ -18,4 +18,4 @@ then
     exit1
 fi
 
-yum install git 
+yum install nginx
