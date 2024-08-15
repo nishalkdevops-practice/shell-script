@@ -4,14 +4,6 @@
 
 USERID=$(id -u)
 
-# if [ $? -ne 0 ]
-# then
-#     echo "ERROR: Please run the script with the root user credentials"
-#     exit1
-# fi
-
-# yum install httpd
-
 if [ $USERID -ne 0 ]
 then
     echo "ERROR: Please run the script with the root user credentials"
@@ -19,3 +11,11 @@ then
 fi
 
 yum install nginx
+
+if [ $? -ne 0 ]
+then
+    echo "ERROR: Installation in Nginx"
+    exit1
+else
+    echo "SUCCESSFUL: Installation of Nginx is successfull"
+fi
