@@ -38,4 +38,4 @@ VALIDATE $? "Installling MySQL"
 
 yum install postfix -y &>>$LOGFILE
 
-VALIDATE $? "Installling Postfix"
+VALIDATE $? "Installling Posttfix"
