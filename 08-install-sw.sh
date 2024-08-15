@@ -20,7 +20,7 @@ else
     echo "SUCCESSFUL: Installation of Nginx is successfull"
 fi
 
-yum insatll postfix -y 
+yum install postfix -y 
 
 if [ $? -ne 0 ]                                         #$? is the status of pereviously executed commands  
 then
