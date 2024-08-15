@@ -6,7 +6,7 @@ DATE=$(date +%F-%H-%M-%S)
 SCRIPT_NAME=$0
 LOGFILE=/tmp/$SCRIPT_NAME-$DATE.log
 
-USERID=$(id -u)
+
 
 VALIDATE(){
 
@@ -20,16 +20,18 @@ fi
 
 }
 
+USERID=$(id -u)
+
 if [ $USERID -ne 0 ]
 then
     echo "ERROR: Please run the script with the root user credentials"
     exit1
 fi
 
-yum install mysql -y 
+yum install mysql -y &>>$LOGFILE
 
 VALIDATE $? "Installling MySQL"
 
-yum install postfix -y 
+yum install postfix -y &>>$LOGFILE
 
 VALIDATE $? "Installling Postfix"
