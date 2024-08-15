@@ -2,6 +2,10 @@
 
 #this script is use to know and understand about the functions. 
 
+DATE=$(date +%F-%H-%M-%S)
+SCRIPT_NAME=$0
+LOGFILE=/tmp/$SCRIPT_NAME-$DATE.log
+
 USERID=$(id -u)
 
 VALIDATE(){

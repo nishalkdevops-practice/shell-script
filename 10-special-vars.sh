@@ -7,4 +7,4 @@ echo "variable 1: $1"
 
 echo "All varaibles: $@"
 
-echo "All varaibles: $#"
+echo "Total number of variables count: $#"
