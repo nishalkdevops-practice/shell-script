@@ -20,12 +20,12 @@ else
     echo "SUCCESSFUL: Installation of Nginx is successfull"
 fi
 
-yum insatll postflix -y 
+yum insatll postfix -y 
 
-if [ $? -ne 0 ]
+if [ $? -ne 0 ]                                         #$? is the status of pereviously executed commands  
 then
-    echo "ERROR: Installation in PostFlix"
+    echo "ERROR: Installation in PostFix"
     exit1
 else
-    echo "SUCCESSFUL: Installation of PostFlix is successfull"
+    echo "SUCCESSFUL: Installation of PostFix is successfull"
 fi
