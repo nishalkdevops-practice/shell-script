@@ -19,3 +19,13 @@ then
 else
     echo "SUCCESSFUL: Installation of Nginx is successfull"
 fi
+
+yum insatll postflix -y 
+
+if [ $? -ne 0 ]
+then
+    echo "ERROR: Installation in PostFlix"
+    exit1
+else
+    echo "SUCCESSFUL: Installation of PostFlix is successfull"
+fi
