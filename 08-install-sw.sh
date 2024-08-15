@@ -10,4 +10,4 @@ then
     exit1
 fi
 
-yum install mysql 
+yum install httpd
