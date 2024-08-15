@@ -10,4 +10,4 @@ then
     exit1
 fi
 
-yum install Mysql 
+yum install mysql 
