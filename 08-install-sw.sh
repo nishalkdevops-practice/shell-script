@@ -4,10 +4,18 @@
 
 USERID=$(id -u)
 
-if [ $? -ne 0 ]
+# if [ $? -ne 0 ]
+# then
+#     echo "ERROR: Please run the script with the root user credentials"
+#     exit1
+# fi
+
+# yum install httpd
+
+if [ $USERID -ne 0 ]
 then
     echo "ERROR: Please run the script with the root user credentials"
     exit1
 fi
 
-yum install httpd
+yum install git 
