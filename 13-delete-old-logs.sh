@@ -9,5 +9,12 @@ LOGFILE=$LOGDIR/$0-$DATE.log
 
 FILES_TO_DELETE=$(find $APP_LOGS_DIR -name "*.log" -type f -mtime +14) #this command will delete the older logs which is older 14  days ago
 
-echo "$FILES_TO_DELETE"
+echo "script statrted executing at $DATE" &>> $LOGFILE
+
+while read line
+do
+    echo "Deleting $line" &>> $LOGFILE
+    rm -rf $line
+done <<< $FILES_TO_DELETE
+
 
