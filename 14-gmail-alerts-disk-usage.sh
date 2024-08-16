@@ -18,10 +18,8 @@ DISK_USAGE_TRESHOLD=1
 #IFS=means internal field serparator 
 
 while IFS= read line
-do 
-
-    #this command will give you usage of disk in number format for comparision 
-    usage=$(echo $line | awk '{print $6}' | cut -d % -f1)
+do  
+    usage=$(echo $line | awk '{print $6}' | cut -d % -f1) #this command will give you usage of disk in number format for comparision
     partition=$(echo $line | awk '{print $1}')
 
     if [$usage -gt $DISK_USAGE_TRESHOLD]
