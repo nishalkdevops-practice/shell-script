@@ -8,17 +8,18 @@ DATE=$(date +%F-%H-%M-%S)
 SCRIPT_NAME=$0
 LOGFILE=/tmp/$SCRIPT_NAME-$DATE.log
 
+
+
+USERID=$(id -u)
+
 R="\e[31m"
 G="\e[32m"
 N="\e[0m"
 Y="\e[33m"
 
-
-USERID=$(id -u)
-
 if [ $USERID -ne 0 ]
 then
-    echo "ERROR: Please run the script with the root user credentials"
+    echo -e  "$R ERROR: Please run the script with the root user credentials $N"
     exit1
 fi
 
