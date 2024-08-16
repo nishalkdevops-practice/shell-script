@@ -22,7 +22,7 @@ do
     usage=$(echo $line | awk '{print $6}' | cut -d % -f1) #this command will give you usage of disk in number format for comparision
     partition=$(echo $line | awk '{print $1}')
 
-    if [$usage -gt $DISK_USAGE_TRESHOLD]
+    if [ $usage -gt $DISK_USAGE_TRESHOLD ]
     then
         message+="High disk usage on $partition: $usage"
     fi
