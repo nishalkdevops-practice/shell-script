@@ -5,8 +5,9 @@
 #mimprovements logfiles, colors, validations, functions 
 
 DATE=$(date +%F-%H-%M-%S)
+LOGDIR=/home/centos/shell-logs
 SCRIPT_NAME=$0
-LOGFILE=/tmp/$SCRIPT_NAME-$DATE.log
+LOGFILE=$LOGDIR/$0-$DATE.log
 
 
 
