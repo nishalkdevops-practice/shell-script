@@ -10,7 +10,7 @@ G="\e[32m"
 N="\e[0m"
 Y="\e[33m"
 
-df -hT #command to check the disk usage in %
+#df -hT #command to check the disk usage in %
 
 DISK_USAGE=$(df -hT | grep -vE 'tmpfs|Filesystem')
 DISK_USAGE_TRESHOLD=1
