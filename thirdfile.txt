@@ -1,0 +1,7 @@
+This is the feature-2 branch file, using to check the merge startegy
+
+Nishal is good bo
+
+To check the feature-2 merge conflicsts
+
+
