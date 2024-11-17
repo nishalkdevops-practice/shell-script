@@ -13,6 +13,7 @@ This is used to check the rebase strategy and hw it is wokring..................
 This is to check the original REBASING MEthod how it is working %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.
 
 
+<<<<<<< HEAD
 To Check the Git Fetch how is is featching the info from remote to loca0l
 
 
@@ -23,3 +24,6 @@ FETCHING--------------------------------------------------------------------
 Working on Tags........................
 
 Again checking tags..............
+=======
+To Check the Git Fetch how is is featching the info from remote to local
+>>>>>>> parent of c3e9cf0 (checking the fetch again)
