@@ -1,0 +1,13 @@
+This is the feature-1 branch file, using to check the merge startegy
+
+Nishal is good boy
+
+This is use to check the git stash working or not !!!!!
+
+This is testing the cherry pick command..........
+
+Thi is to validate the cherry-pick 2nd time$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+This is used to check the rebase strategy and hw it is wokring..................
+
+This is to check the original REBASING MEthod how it is working %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.
