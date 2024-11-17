@@ -11,3 +11,13 @@ Thi is to validate the cherry-pick 2nd time$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 This is used to check the rebase strategy and hw it is wokring..................
 
 This is to check the original REBASING MEthod how it is working %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.
+
+
+To Check the Git Fetch how is is featching the info from remote to loca0l
+
+
+
+FETCHING--------------------------------------------------------------------
+
+
+Working on Tags........................
