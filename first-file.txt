@@ -1,3 +1,7 @@
 This is the feature-1 branch file, using to check the merge startegy
 
 Nishal is good boy
+
+This is use to check the git stash working or not !!!!!
+
+This is testing the cherry pick command..........
