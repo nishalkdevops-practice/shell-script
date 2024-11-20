@@ -14,3 +14,5 @@ This is to check the original REBASING MEthod how it is working %%%%%%%%%%%%%%%%
 
 
 This is use to check the revert command working 
+
+This is used to check the remove the senstitive info..............
